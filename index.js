@@ -15,8 +15,8 @@ function destructivelyRemoveLastKitten(array) {
 function appendKitten(name) {
   return kittens.concat('Broom');
 }
-var kittens = ['Milo', 'Otis', 'Garfield'];
-var removed = kittens.splice(2, 0, 'Arnold');
+function prependKitten(name) {
+return kittens.splice(2, 0, 'Arnold');
 }
 function removeLastKitten(array) {
 return kittens.slice(0, kittens.length - 1);
