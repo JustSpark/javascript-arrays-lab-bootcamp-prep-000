@@ -12,7 +12,9 @@ function destructivelyRemoveFirstKitten(array) {
 function destructivelyRemoveLastKitten(array) {
   return kittens.pop('Garfield');
 }
-
+function appendKitten(name) {
+  return kittens.concat('Broom');
+}
 function removeLastKitten(array) {
 return kittens.slice(0, kittens.length - 1);
 }
