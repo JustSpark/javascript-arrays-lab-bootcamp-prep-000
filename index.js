@@ -16,11 +16,11 @@ function appendKitten(name) {
   return kittens.concat('Broom');
 }
 function prependKitten(name) {
-return kittens.splice(0, 4, 'Arnold');
+return
 }
 function removeLastKitten(array) {
 return kittens.slice(0, kittens.length - 1);
 }
 function removeFirstKitten(number) {
-  return kittens.slice(0, 0,'Milo');
+  return kittens.slice
 }
