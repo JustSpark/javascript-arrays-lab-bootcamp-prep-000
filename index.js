@@ -17,7 +17,7 @@ function appendKitten(name) {
 }
 function prependKitten(name) {
   var newKittens = ['Arnold']
-var newkittens = [...kittens]
+var newkittens = [newkittens+kittens]
 newKittens.unshift('Arnold')
 return newKittens
 }
