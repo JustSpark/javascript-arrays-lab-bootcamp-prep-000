@@ -16,6 +16,7 @@ function appendKitten(name) {
   return kittens.concat('Broom');
 }
 function prependKitten(name) {
+  var newKittens = ['Arnold']
 var newkittens = [...kittens]
 newKittens.unshift('Arnold')
 return newKittens
